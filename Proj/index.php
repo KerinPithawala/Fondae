@@ -22,7 +22,7 @@
         if ($rows == 1) {
             $_SESSION['username'] = $username;
             // Redirect to user dashboard page
-            header("Location: homepage.php");
+            header("Location: dash.php");
         } else {
             echo "<div class='form'>
                   <h3>Incorrect Username/password.</h3><br/>
@@ -63,8 +63,8 @@
    </div>
 
    <div class="other">
-      <button class="btn submits frgt-pass">Forgot Password</button>
-      <p class="link"><a href="registration.php">New Registration</a></p>
+   <button class="link"><a href="/ForgetPassword/.html">Forgot Password</button>
+      <button class="link"><a href="registration.php">New Registration</a></p>
       <i class="fa fa-user-plus" aria-hidden="true"></i>
       </button>
    </div>

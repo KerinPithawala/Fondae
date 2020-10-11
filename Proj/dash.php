@@ -10,19 +10,16 @@ include("auth_session.php");
     <title>Fondae Homepage</title>
     <link rel="stylesheet" href="loginstyle.css"/>
     <script>
-       
+    
+    } 
     function Application(){
     var senderName=document.getElementById("receiver").value;
     var email=document.getElementById("email").value;
     var startDate=document.getElementById("start").value;
     var endDate=document.getElementById("end").value;
     var reason=document.getElementById("reason").value;
-    var txt="Respected "+senderName+<br>+"I would like to ask you to give me a leave from "+startDate+" to"+endDate+" because of "+reason+"."+<br>"I request you to grant me a leave."+<br>+"Thank you.";
-    var decision = prompt("Should I send this email?", txt);
-    if (decision!=NULL){
-      window.alert("Email sent");
-    }
-
+    var txt="Respected "+senderName+"I would like to ask you to give me a leave from "+because of "+reason+".I request you to grant me a leave."+<br>+"Thank you.";
+    window.alert(txt);
     }
     </script>
 </head>
